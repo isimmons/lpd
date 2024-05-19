@@ -1,0 +1,6 @@
+# ignore all files and folders inside this directory but not this gitignore file
+# and not the parent Packages directory
+# Packages pulled in via git clone should contain their own git files
+
+*
+!.gitignore

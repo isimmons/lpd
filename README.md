@@ -5,6 +5,11 @@ directory specifically for developing Laravel packages.
 
 ## Usage
 
+### Important Note
+Note to self and anyone else. Do not run composer install or update without first cloning in an actual package and 
+setting up the repositories section and requiring the package in composer.json.
+Read notes below!
+
 How it works:
 app/Packages/.gitignore ensures the Packages directory stays but anything inside it is 
 ignored by the LPD repository. So you can git clone an existing package into this directory.
